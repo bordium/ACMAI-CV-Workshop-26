@@ -1,0 +1,16 @@
+label,x,y
+square_top_left,35,35
+square_top_right,95,35
+square_bottom_left,35,95
+square_bottom_right,95,95
+rect_top_left,130,35
+rect_top_right,235,35
+rect_bottom_left,130,105
+rect_bottom_right,235,105
+diamond_top,65,155
+diamond_right,105,195
+diamond_bottom,65,235
+diamond_left,25,195
+triangle_top,185,150
+triangle_right,260,220
+triangle_left,130,220
