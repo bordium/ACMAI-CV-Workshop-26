@@ -1,0 +1,62 @@
+{
+  "image_width": 640,
+  "image_height": 480,
+  "K": [
+    [
+      420.0,
+      0.0,
+      320.0
+    ],
+    [
+      0.0,
+      420.0,
+      240.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "body_frame": "X forward, Y left, Z up",
+  "optical_frame": "X right, Y down, Z forward",
+  "R_optical_body": [
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "R_body_optical": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "core_transform_equations": {
+    "pixel_to_optical": "X_o = depth * K^{-1} [u, v, 1]^T",
+    "optical_to_body": "X_b = R_body_optical @ X_o",
+    "body_to_world": "X_w = R_world_body @ X_b + p_world_body"
+  }
+}

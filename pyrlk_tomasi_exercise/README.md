@@ -14,7 +14,7 @@ The starter material is intentionally **skeleton-like**. Students are expected t
 Open:
 
 ```
-starter_opencv.ipynb
+exercise.ipynb
 ```
 
 This notebook keeps the surrounding Python minimal so students mainly practice the key OpenCV functionality.
